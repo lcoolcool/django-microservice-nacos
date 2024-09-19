@@ -19,5 +19,5 @@ def nacos_beat_view():
 
 
 urlpatterns = [
-    path(r'^beat/$', nacos_beat_view)
+    path('beat/', nacos_beat_view)
 ]
