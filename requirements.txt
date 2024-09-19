@@ -1,0 +1,2 @@
+django>=2.2.0
+nacos-sdk-python==1.0.0
