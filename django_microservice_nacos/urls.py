@@ -13,7 +13,7 @@ def get_network_ip():
     return __ip__
 
 
-def nacos_beat_view():
+def nacos_beat_view(request):
     nacos.client.send_heartbeat(nacos.data_id, get_network_ip(), "8000", group_name=nacos.group)
     return HttpResponse(status=200)
 

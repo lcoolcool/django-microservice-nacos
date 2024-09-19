@@ -7,7 +7,7 @@ setuptools.setup(
     # 包的分发名称，使用字母、数字、_、-
     name="django-nacos-microservice",
     # 版本号, 版本号规范：https://www.python.org/dev/peps/pep-0440/
-    version="1.1.0",
+    version="1.2.0",
     # 作者名
     author="lcoolcool",
     # 作者邮箱
